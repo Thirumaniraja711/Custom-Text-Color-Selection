@@ -1,0 +1,44 @@
+/* Font StyleSheet*/
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville&family=Roboto:ital,wght@1,700&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+}
+
+::selection {
+    background-color: #F97F51;
+    color: white;
+}
+
+body {
+    width: 100vw;
+    height: 100vh;
+    font-family: 'Times New Roman', Times, serif;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 15px;
+
+}
+
+h1 {
+    font-size: 25px;
+
+}
+
+p {
+    padding: 10px;
+    font-size: 20px;
+    font-style: italic;
+}
+
+.select::selection {
+    background-color: #1B9CFC;
+    color: white;
+}
+
+h3 {
+    user-select: none;
+}
